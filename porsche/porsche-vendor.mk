@@ -1739,16 +1739,8 @@ PRODUCT_COPY_FILES += \
     vendor/realme/porsche/proprietary/vendor/lib64/vendor.qti.voiceprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.voiceprint@1.0.so
 
 PRODUCT_PACKAGES += \
-    libfastcvopt \
-    libthermalclient \
-    CACertService \
-    CneApp \
     ConnectionSecurityService \
-    IWlanService \
-    TimeService \
     vendor.qti.diag.hal.service \
     vendor.qti.hardware.limits@1.0-service \
-    manifest_android.hardware.drm@1.3-service.widevine \
-    manifest_dax_dolby_v3_6 \
     manifest_oplus_cameraextension_aidl \
     manifest_oplus_fingerprint
